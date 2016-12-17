@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "express",
+    "script"      : "server.js",
+    "args"        : ["-m","dev","-d","/opt/express/"],
+    "watch"       : false,
+    "node_args"   : "--trace_gc",
+    "error_file"  : "/opt/express/logs/express.err.log",
+    "out_file"    : "/opt/express/logs/express.out.log",
+    "cwd"         : "/opt/express/"
+  }]
+}
