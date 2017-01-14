@@ -5,6 +5,10 @@
     height: 400px
 }
 
+.navigator ul li{
+	margin-right:10px;
+}
+
 .container{
 	margin-top:10px;
 	margin-left:2px;
